@@ -456,4 +456,6 @@ std::string LaczeDoGNUPlota::ZapiszUstawienieRotacjiISkali() const
 
 
 
+
+
 } //___ Koniec przestrzeni nazw: PzG ____________________________________________
