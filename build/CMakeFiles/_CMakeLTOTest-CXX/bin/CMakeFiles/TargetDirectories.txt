@@ -1,4 +1,4 @@
-/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
-/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
-/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
-/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir

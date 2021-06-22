@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/nina/zad5_2-n-bartnik/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
-  "/home/nina/zad5_2-n-bartnik/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
+  "/home/nina/zad5_3-n-bartnik/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "/home/nina/zad5_3-n-bartnik/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"

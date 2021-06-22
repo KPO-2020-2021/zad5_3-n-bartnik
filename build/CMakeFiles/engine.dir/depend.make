@@ -14,6 +14,7 @@ CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/Cuboid.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/Drone.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/Prism.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/engine.dir/src/Drone.cpp.o: ../include/matrix.hh
@@ -41,6 +42,7 @@ CMakeFiles/engine.dir/src/Ground.cpp.o: ../src/Ground.cpp
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/Hill.hh
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/size.hh
 CMakeFiles/engine.dir/src/Hill.cpp.o: ../include/vector.hh
@@ -64,6 +66,7 @@ CMakeFiles/engine.dir/src/Prism.cpp.o: ../src/Prism.cpp
 
 CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/Prism2.hh
 CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/Prism2.cpp.o: ../include/size.hh
@@ -73,6 +76,7 @@ CMakeFiles/engine.dir/src/Prism2.cpp.o: ../src/Prism2.cpp
 
 CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/Pyramid.hh
 CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/Pyramid.cpp.o: ../include/size.hh
@@ -86,6 +90,7 @@ CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Ground.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Hill.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Prism.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Prism2.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/Pyramid.hh

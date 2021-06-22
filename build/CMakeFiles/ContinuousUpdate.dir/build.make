@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nina/zad5_2-n-bartnik
+CMAKE_SOURCE_DIR = /home/nina/zad5_3-n-bartnik
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nina/zad5_2-n-bartnik/build
+CMAKE_BINARY_DIR = /home/nina/zad5_3-n-bartnik/build
 
 # Utility rule file for ContinuousUpdate.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousUpdate.dir/clean:
 .PHONY : CMakeFiles/ContinuousUpdate.dir/clean
 
 CMakeFiles/ContinuousUpdate.dir/depend:
-	cd /home/nina/zad5_2-n-bartnik/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/zad5_2-n-bartnik /home/nina/zad5_2-n-bartnik /home/nina/zad5_2-n-bartnik/build /home/nina/zad5_2-n-bartnik/build /home/nina/zad5_2-n-bartnik/build/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nina/zad5_3-n-bartnik/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nina/zad5_3-n-bartnik /home/nina/zad5_3-n-bartnik /home/nina/zad5_3-n-bartnik/build /home/nina/zad5_3-n-bartnik/build /home/nina/zad5_3-n-bartnik/build/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousUpdate.dir/depend
 

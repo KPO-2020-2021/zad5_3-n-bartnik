@@ -23,6 +23,8 @@ Cuboid.hh
 ../include/Cuboid.hh
 Prism.hh
 ../include/Prism.hh
+Object.hh
+../include/Object.hh
 unistd.h
 -
 
@@ -51,6 +53,8 @@ vector
 ../include/Hill.hh
 GeoSolid.hh
 ../include/GeoSolid.hh
+Object.hh
+../include/Object.hh
 stdlib.h
 -
 fstream
@@ -63,6 +67,14 @@ matrix.hh
 ../include/matrix.hh
 cmath
 -
+
+../include/Object.hh
+string
+-
+memory
+-
+vector3D.hh
+../include/vector3D.hh
 
 ../include/Prism.hh
 vector.hh
@@ -81,10 +93,14 @@ string
 ../include/Prism2.hh
 GeoSolid.hh
 ../include/GeoSolid.hh
+Object.hh
+../include/Object.hh
 
 ../include/Pyramid.hh
 GeoSolid.hh
 ../include/GeoSolid.hh
+Object.hh
+../include/Object.hh
 
 ../include/Scene.hh
 Drone.hh
@@ -142,9 +158,9 @@ cmath
 vector.hh
 ../include/vector.hh
 
-/home/nina/zad5_2-n-bartnik/app/main.cpp
+/home/nina/zad5_3-n-bartnik/app/main.cpp
 ../tests/doctest/doctest.h
-/home/nina/zad5_2-n-bartnik/tests/doctest/doctest.h
+/home/nina/zad5_3-n-bartnik/tests/doctest/doctest.h
 iostream
 -
 iomanip
@@ -156,15 +172,15 @@ fstream
 string
 -
 exampleConfig.h
-/home/nina/zad5_2-n-bartnik/app/exampleConfig.h
+/home/nina/zad5_3-n-bartnik/app/exampleConfig.h
 example.h
-/home/nina/zad5_2-n-bartnik/app/example.h
+/home/nina/zad5_3-n-bartnik/app/example.h
 Scene.hh
-/home/nina/zad5_2-n-bartnik/app/Scene.hh
+/home/nina/zad5_3-n-bartnik/app/Scene.hh
 ../include/lacze_do_gnuplota.hh
-/home/nina/zad5_2-n-bartnik/include/lacze_do_gnuplota.hh
+/home/nina/zad5_3-n-bartnik/include/lacze_do_gnuplota.hh
 
-/home/nina/zad5_2-n-bartnik/include/lacze_do_gnuplota.hh
+/home/nina/zad5_3-n-bartnik/include/lacze_do_gnuplota.hh
 string
 -
 list
@@ -172,7 +188,7 @@ list
 vector
 -
 
-/home/nina/zad5_2-n-bartnik/tests/doctest/doctest.h
+/home/nina/zad5_3-n-bartnik/tests/doctest/doctest.h
 signal.h
 -
 iosfwd
@@ -186,7 +202,7 @@ ciso646
 type_traits
 -
 doctest_fwd.h
-/home/nina/zad5_2-n-bartnik/tests/doctest/doctest_fwd.h
+/home/nina/zad5_3-n-bartnik/tests/doctest/doctest_fwd.h
 ctime
 -
 cmath

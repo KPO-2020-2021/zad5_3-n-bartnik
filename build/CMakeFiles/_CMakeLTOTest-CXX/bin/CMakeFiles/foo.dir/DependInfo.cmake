@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp" "/home/nina/zad5_2-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o"
+  "/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp" "/home/nina/zad5_3-n-bartnik/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/foo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

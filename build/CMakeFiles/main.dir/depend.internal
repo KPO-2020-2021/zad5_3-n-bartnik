@@ -8,6 +8,7 @@ CMakeFiles/main.dir/app/main.cpp.o
  ../include/Ground.hh
  ../include/Hill.hh
  ../include/Matrix3x3.hh
+ ../include/Object.hh
  ../include/Prism.hh
  ../include/Prism2.hh
  ../include/Pyramid.hh
@@ -18,7 +19,7 @@ CMakeFiles/main.dir/app/main.cpp.o
  ../include/size.hh
  ../include/vector.hh
  ../include/vector3D.hh
- /home/nina/zad5_2-n-bartnik/app/main.cpp
- /home/nina/zad5_2-n-bartnik/include/lacze_do_gnuplota.hh
- /home/nina/zad5_2-n-bartnik/tests/doctest/doctest.h
+ /home/nina/zad5_3-n-bartnik/app/main.cpp
+ /home/nina/zad5_3-n-bartnik/include/lacze_do_gnuplota.hh
+ /home/nina/zad5_3-n-bartnik/tests/doctest/doctest.h
  exampleConfig.h

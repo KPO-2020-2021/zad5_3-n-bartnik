@@ -1,4 +1,4 @@
-# Install script for directory: /home/nina/zad5_2-n-bartnik/tests
+# Install script for directory: /home/nina/zad5_3-n-bartnik/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

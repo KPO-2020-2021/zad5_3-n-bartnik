@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/nina/zad5_2-n-bartnik
-BuildDirectory: /home/nina/zad5_2-n-bartnik/build
+SourceDirectory: /home/nina/zad5_3-n-bartnik
+BuildDirectory: /home/nina/zad5_3-n-bartnik/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/nina/zad5_2-n-bartnik"
+ConfigureCommand: "/usr/bin/cmake" "/home/nina/zad5_3-n-bartnik"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
