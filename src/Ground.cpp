@@ -1,12 +1,16 @@
 
 #include "Ground.hh"
 
-
+/*!
+    \brief
+    *Konstruktor parametryczny Ground.
+    *Przyjmuje wektor wymiarów, zmienną gęstości siatki i nazwe pliku.
+    *Przechodzi przez 2 wymiary siatki płaszczyzny w dwóch pętlach */
 Ground::Ground(Vector3D wymiary, int gestosc_siatki, std::string nazwa)
 {
     this->nazwa = nazwa;
     double tab[3];
-    licz_prostych=0;
+    licz_prostych=0; //licznik prostych
     for (int i = -wymiary[0] / 2; i < wymiary[0] / 2; i += gestosc_siatki)
     {
         for (int j = -wymiary[1] / 2; j < wymiary[1] / 2; j += gestosc_siatki)
@@ -14,7 +18,7 @@ Ground::Ground(Vector3D wymiary, int gestosc_siatki, std::string nazwa)
             tab[0] = i;
             tab[1] = j;
 
-            pkt1.push_back(tab);
+            pkt1.push_back(tab); //dokłada do kontenera wektora
         }
         licz_prostych++;
     }
