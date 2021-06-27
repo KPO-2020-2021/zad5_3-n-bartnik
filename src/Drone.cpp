@@ -4,7 +4,7 @@
 Drone::Drone(int index, PzG::LaczeDoGNUPlota &Lacze, Vector3D pozycja) : Lacze(Lacze)
 {
     kat = 0;
-   // this->index = index;
+
     orginal.ustaw_nazwe("../datasets/korpus" + std::to_string(index) + ".dat");
 
     for (int i = 0; i < 4; i++)
@@ -113,12 +113,20 @@ void Drone::obrot_rotrow()
     }
 }
 
+// /*!
+//         Lacze.UsunOstatniaNazwe();
+//         break;
+//     }
+
+// */
+
+
 /*!
-        Lacze.UsunOstatniaNazwe();
-        break;
-    }
+    \brief
+    *Funkcja zapisz. Zapisuje korpus i wszystkie rotory (kopie)
 
 */
+
 
 void Drone::zapisz()
 {
@@ -200,7 +208,6 @@ void Drone::sterowanie(std::list<std::shared_ptr<Object>> &lista)
                 animacja(-100);
                 if (sprawdzaj_miejsce(*i) == true)
                 {
-                    cout << "Napotkana przeszkoda: " << (*i)->wez_nazwe() << endl;  //wypisuje przeszkodę, którą napotkał dron
                     miejsce = true;
                 }
                 kopia = orginal;
@@ -308,7 +315,7 @@ bool Drone::sprawdzaj_miejsce(shared_ptr<Object> object)
     \brief
     *Funkcja prosta
     *Tworzy prostą -  drogę drona na podstawie dostarczonej do niej drogi.
-    *Do współrzędniej Z przypisuje wartość 150 i wstawia tę współrzędną na koniec listy. Współrzędne X, Y oblicza na podstawie wzoru podanego w treści zadania i również wstawia na koniec listy. Następnie zeruje współrzędną Z i wstawia ją na koniec listy
+    *Do współrzędniej Z przypisuje wartość 150 i wstawia tę współrzędną na koniec listy. Współrzędne X, Y oblicza na podstawie wzoru podanego w treści zadania i również wstawia do kontenera wektora. Następnie zeruje współrzędną Z i wstawia ją na koniec listy
     *Później otwiera plik drogi i zapisuje do niej każdą obliczoną współrzędną w pętli
 */
 
