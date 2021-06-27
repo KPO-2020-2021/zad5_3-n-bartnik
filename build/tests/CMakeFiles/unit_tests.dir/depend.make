@@ -8,6 +8,7 @@ tests/CMakeFiles/unit_tests.dir/dummy.cpp.o: ../tests/dummy.cpp
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/Cuboid.hh
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/GeoSolid.hh
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/Matrix3x3.hh
+tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/Object.hh
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/matrix.hh
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/size.hh
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../include/vector.hh

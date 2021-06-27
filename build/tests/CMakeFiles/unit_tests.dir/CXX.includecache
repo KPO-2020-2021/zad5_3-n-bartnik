@@ -23,6 +23,8 @@ fstream
 -
 string
 -
+Object.hh
+/home/nina/zad5_3-n-bartnik/include/Object.hh
 Matrix3x3.hh
 /home/nina/zad5_3-n-bartnik/include/Matrix3x3.hh
 vector3D.hh
@@ -34,9 +36,13 @@ matrix.hh
 cmath
 -
 
-/home/nina/zad5_3-n-bartnik/include/example.h
-../tests/doctest/doctest.h
-/home/nina/zad5_3-n-bartnik/tests/doctest/doctest.h
+/home/nina/zad5_3-n-bartnik/include/Object.hh
+string
+-
+memory
+-
+vector3D.hh
+/home/nina/zad5_3-n-bartnik/include/vector3D.hh
 
 /home/nina/zad5_3-n-bartnik/include/matrix.hh
 size.hh
@@ -145,10 +151,6 @@ sys/time.h
 -
 unistd.h
 -
-
-/home/nina/zad5_3-n-bartnik/tests/dummy.cpp
-../include/example.h
-/home/nina/zad5_3-n-bartnik/include/example.h
 
 /home/nina/zad5_3-n-bartnik/tests/main.cpp
 ../tests/doctest/doctest.h

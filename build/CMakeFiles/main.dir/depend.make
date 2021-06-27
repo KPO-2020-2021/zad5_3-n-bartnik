@@ -12,14 +12,11 @@ CMakeFiles/main.dir/app/main.cpp.o: ../include/Prism.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Prism2.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Pyramid.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/Scene.hh
-CMakeFiles/main.dir/app/main.cpp.o: ../include/example.h
 CMakeFiles/main.dir/app/main.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/matrix.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/size.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/vector.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../include/vector3D.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../app/main.cpp
-CMakeFiles/main.dir/app/main.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/main.dir/app/main.cpp.o: ../tests/doctest/doctest.h
-CMakeFiles/main.dir/app/main.cpp.o: exampleConfig.h
 

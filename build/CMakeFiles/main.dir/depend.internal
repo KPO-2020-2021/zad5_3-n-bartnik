@@ -13,13 +13,10 @@ CMakeFiles/main.dir/app/main.cpp.o
  ../include/Prism2.hh
  ../include/Pyramid.hh
  ../include/Scene.hh
- ../include/example.h
  ../include/lacze_do_gnuplota.hh
  ../include/matrix.hh
  ../include/size.hh
  ../include/vector.hh
  ../include/vector3D.hh
  /home/nina/zad5_3-n-bartnik/app/main.cpp
- /home/nina/zad5_3-n-bartnik/include/lacze_do_gnuplota.hh
  /home/nina/zad5_3-n-bartnik/tests/doctest/doctest.h
- exampleConfig.h

@@ -4,6 +4,7 @@
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/Cuboid.hh
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/size.hh
 CMakeFiles/engine.dir/src/Cuboid.cpp.o: ../include/vector.hh
@@ -25,6 +26,7 @@ CMakeFiles/engine.dir/src/Drone.cpp.o: ../src/Drone.cpp
 
 CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/size.hh
 CMakeFiles/engine.dir/src/GeoSolid.cpp.o: ../include/vector.hh
@@ -57,6 +59,7 @@ CMakeFiles/engine.dir/src/Matrix3x3.cpp.o: ../src/Matrix3x3.cpp
 
 CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/GeoSolid.hh
 CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/Matrix3x3.hh
+CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/Object.hh
 CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/Prism.hh
 CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/matrix.hh
 CMakeFiles/engine.dir/src/Prism.cpp.o: ../include/size.hh
@@ -103,8 +106,8 @@ CMakeFiles/engine.dir/src/Scene.cpp.o: ../include/vector3D.hh
 CMakeFiles/engine.dir/src/Scene.cpp.o: ../src/Scene.cpp
 
 CMakeFiles/engine.dir/src/example.cpp.o: ../include/example.h
-CMakeFiles/engine.dir/src/example.cpp.o: ../src/example.cpp
 CMakeFiles/engine.dir/src/example.cpp.o: ../tests/doctest/doctest.h
+CMakeFiles/engine.dir/src/example.cpp.o: ../src/example.cpp
 
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o: ../include/lacze_do_gnuplota.hh
 CMakeFiles/engine.dir/src/lacze_do_gnuplota.cpp.o: ../src/lacze_do_gnuplota.cpp
