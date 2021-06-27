@@ -4,7 +4,7 @@ Prism ::Prism(Vector<3> srodek, double z, double r, string nazwa)
 {
   
     double tab[] = {0, 0, z};
-    wymiary = new Vector3D(tab);
+    wymiary = make_shared< Vector3D>(tab);
     this->NazwaPlikuPis = nazwa;
     this->srodek = srodek;
     Vector3D pkt;

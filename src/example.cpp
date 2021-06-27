@@ -1,4 +1,4 @@
-#include "../include/example.h"
+#include "example.h"
 
 Dummy::Dummy() {
 

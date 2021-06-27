@@ -6,7 +6,7 @@ A następnie wysokość, długość przekatnej i długość wzniesienia. Za pomo
 Hill::Hill(Vector3D srodek, double x,double y, double z,std::string NazwaPlikuPis)
 {
     double tab[]={x,y,z};
-    wymiary= new Vector3D(tab);
+    wymiary= make_shared<Vector3D>(tab);
     this->NazwaPlikuPis=NazwaPlikuPis;
   this->srodek=srodek;
   Vector3D punkt;

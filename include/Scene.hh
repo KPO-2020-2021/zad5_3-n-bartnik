@@ -1,14 +1,17 @@
 #pragma once
-
-#include "Drone.hh"
-#include "Prism.hh"
+#include <list>
+#include <memory>
 #include "Hill.hh"
 #include "Pyramid.hh"
 #include "Prism2.hh"
+
+#include "Prism.hh"
+
 #include "lacze_do_gnuplota.hh"
+#include "Drone.hh"
 #include "Ground.hh"
-#include <list>
-#include <memory>
+
+#include "Object.hh"
 
 class Scene
 {
@@ -16,20 +19,21 @@ class Scene
 
 protected:
 int numer_przeszkody;
-std::list<shared_ptr<GeoSolid>> lista; //lista elementow przechowujaca inteligentne wskazniki typu bryla
+std::list<shared_ptr<Object>> lista; //lista elementow przechowujaca inteligentne wskazniki typu geosolid
     PzG::LaczeDoGNUPlota Lacze;
-    Drone *TabDronow[2];
+    std::list<std::shared_ptr<Drone>>ListaDronow;
     Ground *plaszczyzna;
+     int nr_drona;
 
     int k = 0;
 public:
     Scene();
     void Rysuj();
     bool menu();
-    ~Scene()
-    {
-        free(plaszczyzna);
-        for (int i = 0; i < 2; i++)
-            free(TabDronow[i]);
-    }
+    //~Scene();
+    // {
+    //     free(plaszczyzna);
+    //     for (int i = 0; i < 2; i++)
+    //         free(TabDronow[i]);
+    // }
 };

@@ -6,15 +6,8 @@
 #include "../tests/doctest/doctest.h"
 #endif
 
-#include <iostream>
-#include <iomanip>
-#include <stdlib.h>
-#include <fstream>
-#include <string>
-#include "exampleConfig.h"
-#include "example.h"
 #include "Scene.hh"
-#include "../include/lacze_do_gnuplota.hh"
+//#include "../include/lacze_do_gnuplota.hh"
 
 
 

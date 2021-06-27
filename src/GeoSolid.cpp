@@ -48,3 +48,21 @@ void GeoSolid::zapisz()
          << std::endl;
     plik.close();
 }
+
+bool GeoSolid::sprawdzaj_miejsce(shared_ptr<Object> object)
+{
+    std::shared_ptr<GeoSolid> geosolid = shared_from_this();
+
+    if (object != geosolid)
+    {
+
+        Vector3D srodek_bryly= wez_srodek();
+        Vector3D srodek_obiektu = object->wez_srodek();
+        double length = sqrt(pow(srodek_bryly[0] - srodek_obiektu[0], 2) + pow(srodek_bryly[1] - srodek_obiektu[1], 2) + pow(srodek_bryly[2] - srodek_obiektu[2], 2));
+        if (promien() + object->promien() >= length)
+        {
+            return true;
+        }
+    }
+    return false;
+}

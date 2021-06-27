@@ -1,9 +1,12 @@
 #include "Prism2.hh"
 
 
-/*KOnstruktor bryły ostrosłupu oparty na konstruktorze ostrosłupa???*/
+/*KOnstruktor bryły ostrosłupu oparty na konstruktorze ostrosłupa*/
 Prism2::Prism2(Vector3D srodek, double x,double y, double z,std::string NazwaPlikuPis)
 {
+
+  double tab[]={x,y,z};
+   wymiary=std::make_shared<Vector3D> (tab);
     this->NazwaPlikuPis=NazwaPlikuPis;
   this->srodek=srodek;
 

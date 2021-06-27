@@ -1,5 +1,5 @@
 
-#include "../include/Matrix3x3.hh"
+#include "Matrix3x3.hh"
 
 /*FUnkcja obraca oś względem osi OX. Przyjmuje kąt i przelicza go na radiany, zwraca
 macierz obrotu. Dla każdego indeksu macierzy wpisuje do komórki wartości zgodnie 

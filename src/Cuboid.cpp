@@ -7,7 +7,7 @@ Na podstawie tych danych oblicza współrzędne pozostałych pkt1chołków*/
 Cuboid::Cuboid(Vector3D srodek, double x,double y, double z,std::string nazwa)
 {
     double tab[]={x,y,z};
-    wymiary= new Vector3D(tab);
+    wymiary= make_shared< Vector3D>(tab);
     this->NazwaPlikuPis=nazwa;
   this->srodek=srodek;
   Vector3D punkt;
