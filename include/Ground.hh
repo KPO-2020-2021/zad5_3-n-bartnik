@@ -7,7 +7,7 @@
 class Ground
 {
 protected:
-    std::vector<Vector3D> wierz;
+    std::vector<Vector3D> pkt1;
     std::string nazwa;
    int licz_prostych;
 public:
@@ -16,10 +16,10 @@ public:
 
     Vector3D &operator[](int index)
 {
-    return wierz[index];
+    return pkt1[index];
 }
     Vector3D operator[](int index) const {
-    return wierz[index];
+    return pkt1[index];
 }
 
     void ustaw_nazwe(std::string nazwa);

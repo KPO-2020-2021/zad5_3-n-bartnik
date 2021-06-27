@@ -42,6 +42,20 @@ Matrix3x3.hh
 vector3D.hh
 ../include/vector3D.hh
 
+../include/Ground.hh
+vector3D.hh
+../include/vector3D.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+fstream
+-
+vector
+-
+
+../include/Hill.hh
+GeoSolid.hh
+../include/GeoSolid.hh
+
 ../include/Matrix3x3.hh
 matrix.hh
 ../include/matrix.hh
@@ -65,6 +79,36 @@ fstream
 -
 string
 -
+
+../include/Prism2.hh
+GeoSolid.hh
+../include/GeoSolid.hh
+
+../include/Pyramid.hh
+GeoSolid.hh
+../include/GeoSolid.hh
+
+../include/Scene.hh
+list
+-
+memory
+-
+Hill.hh
+../include/Hill.hh
+Pyramid.hh
+../include/Pyramid.hh
+Prism2.hh
+../include/Prism2.hh
+Prism.hh
+../include/Prism.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+Drone.hh
+../include/Drone.hh
+Ground.hh
+../include/Ground.hh
+Object.hh
+../include/Object.hh
 
 ../include/lacze_do_gnuplota.hh
 string
@@ -101,4 +145,8 @@ vector.hh
 /home/nina/zad5_3-n-bartnik/src/Drone.cpp
 Drone.hh
 /home/nina/zad5_3-n-bartnik/src/Drone.hh
+
+/home/nina/zad5_3-n-bartnik/src/Scene.cpp
+Scene.hh
+/home/nina/zad5_3-n-bartnik/src/Scene.hh
 

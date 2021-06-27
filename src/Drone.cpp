@@ -114,9 +114,9 @@ void Drone::obrot_rotrow()
 }
 
 /*!
-    \brief
-    *Funkcja zapisz 
-    *Korzysta z funkcji zapisu, zapisuje do plików *.dat korpus i wirniki
+        Lacze.UsunOstatniaNazwe();
+        break;
+    }
 
 */
 

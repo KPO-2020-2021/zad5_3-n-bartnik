@@ -1,8 +1,10 @@
 #include "Hill.hh"
 using namespace std;
-
-/*Fuckja buduje wzniesienie na podstawie konstruktora cuboida. Przyjmuje wektor zawierający współrzędne srodka
-A następnie wysokość, długość przekatnej i długość wzniesienia. Za pomoca funkcji push_back nowy element, czyli wierzcholek jest dodawany do kontenera wektora*/
+/*!
+    \brief
+*Fuckja buduje wzniesienie na podstawie konstruktora cuboida. Przyjmuje wektor zawierający współrzędne srodka
+*A następnie wysokość, długość przekatnej i długość wzniesienia. 
+*Za pomoca funkcji push_back nowy element, czyli wierzcholek jest dodawany do kontenera wektora*/
 Hill::Hill(Vector3D srodek, double x,double y, double z,std::string NazwaPlikuPis)
 {
     double tab[]={x,y,z};
@@ -54,7 +56,9 @@ Hill::Hill(Vector3D srodek, double x,double y, double z,std::string NazwaPlikuPi
   pkt1.push_back(punkt);
 
 }
-
+/*!
+    \brief
+    Konstruktor kopiujący HIll. Przyjmuje pr i przypisuje do niego każdą składową klasy*/
 Hill::Hill( Hill& pr )
 {
    wymiary=pr.wymiary;

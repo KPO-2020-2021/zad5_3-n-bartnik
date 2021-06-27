@@ -36,7 +36,7 @@ bool sprawdzaj_miejsce(shared_ptr <Object> object);
   Vector3D wez_srodek() const {
     return kopia.wez_srodek();
 }
-  //int wez_index(){return index; }
+
   std::string wez_nazwe()const{return "Napotkana przeszkoda: dron";}
-  //void usun();
+
 };

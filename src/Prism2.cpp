@@ -1,7 +1,9 @@
 #include "Prism2.hh"
 
-
-/*KOnstruktor bryły ostrosłupu oparty na konstruktorze ostrosłupa*/
+/*!
+    \brief
+/KOnstruktor bryły graniastosłupu oparty na konstruktorze ostrosłupa. Przyjmuje wektor środka, współrzędne X, Y, Z oraz nazwę pliku do zapisu. Na podstawie środka tworzy kolejne wierzchołki i za pomocą
+* funkcji push_back wysyła punkty do kontenera wektora*/
 Prism2::Prism2(Vector3D srodek, double x,double y, double z,std::string NazwaPlikuPis)
 {
 
@@ -59,6 +61,10 @@ Vector3D punkt;
   this->srodek[2]=srodek[2]-(z/2);
 }
 
+
+/*!
+    \brief
+    KOnstruktor kopiujący Prism2. Przyjmuje pr i przypisuje do niego każdą składową klasy*/
 Prism2::Prism2( Prism2& pr )
 {
    wymiary=pr.wymiary;
